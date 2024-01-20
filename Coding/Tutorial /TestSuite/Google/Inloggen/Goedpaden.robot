@@ -8,6 +8,12 @@ ${USERNAME}       jouw_gebruikersnaam
 ${PASSWORD}       jouw_wachtwoord
 
 *** Test Cases ***
-Inloggen Op Website
+Website openen en sluiten
     Open Browser    ${URL}    ${BROWSER}
     Close Browser
+
+Zoekopdracht invoeren 
+    Open Browser    ${URL}    ${BROWSER}
+    # Zoek op Flatcoated Retriever 
+    # Check op zoekresultaat
+
