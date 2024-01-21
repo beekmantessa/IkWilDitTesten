@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+/* dit kopje zorgt voor de styling van heel de website */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(113, 53, 113);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo {
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+    
+}
+.nav{
+    color: aquamarine;
+}
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover {
+    color: aquamarine;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: bisque;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: aquamarine;
+
+}
+
+/* big picture */
+.foto-front {
+    max-width: 80%;
+    max-height: 80%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
+.home-title {
+    font-family: "Krona one", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(113, 53, 113);
+    text-decoration: none;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.home-title2 {
+    font-family: "Krona one", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(113, 53, 113);
+    text-decoration: none;
+    position: absolute;
+    top: 435px;
+    left: 100px;
+}
+.home-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(113, 53, 113);
+    text-decoration: none;
+    position: absolute;
+    top: 480px;
+    left: 100px;
+}
+
