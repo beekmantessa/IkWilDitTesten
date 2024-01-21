@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="Width, initial-scale=1.0" />
+    <title>Maeve is de beste</title>
+    <!--Link naar css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="pictures/Maeve_White_Logo.webp" alt="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="website.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blogpost.html">Blogpost</a></li>
+          <li><a href="dailytracker.html">Daily Tracker</a></li>
+          <li><a href="myfriends.html">My friends</a></li>
+          <li><a href="pictures.html">Pictures</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#"><button>Login</button></a>
+    </header>
+
+    <div class="container">
+      <h2>Contacteer ons</h2>
+      <form action="verwerk_formulier.php" method="post">
+        <!-- Verwijs naar de scriptpagina die het formulier verwerkt -->
+        <!-- Naam -->
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam" required />
+
+        <!-- E-mail -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <!-- Bericht -->
+        <label for="bericht">Bericht:</label>
+        <textarea id="bericht" name="bericht" rows="4" required></textarea>
+
+        <!-- Verzendknop -->
+        <button type="submit">Verstuur</button>
+      </form>
+    </div>
+
+    <footer>
+      <!-- Je voetnavigatie en andere footer-inhoud kunnen hier worden toegevoegd -->
+    </footer>
+  </body>
+</html>
